@@ -1,6 +1,6 @@
 const path = require('path')
 const dependencies = require('./package.json').dependencies
-const AliasConfig = require('../alias.config')
+const AliasConfig = require('./alias.config')
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { ModuleFederationPlugin } = require('webpack').container

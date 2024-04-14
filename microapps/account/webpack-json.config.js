@@ -1,6 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
-const AliasConfig = require('../../alias.config')
+const AliasConfig = require('../alias.config')
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
