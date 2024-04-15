@@ -7,7 +7,7 @@
         >
             <a
                 class="inline-block rounded-full bg-indigo-600 p-2 text-white shadow transition hover:bg-indigo-500 sm:p-3 lg:p-4"
-                href="#MainContent"
+                href="##MainContent"
                 ><span class="sr-only">Back to top</span
                 ><svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -290,7 +290,7 @@
                 <li>
                     <a
                         class="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
+                        href="/container-cfml/"
                     >
                         Home
                     </a>
@@ -298,7 +298,7 @@
                 <li>
                     <a
                         class="text-gray-700 transition hover:text-gray-700/75"
-                        href="/products"
+                        href="/container-cfml/products/"
                     >
                         Products
                     </a>
@@ -306,7 +306,7 @@
                 <li>
                     <a
                         class="text-gray-700 transition hover:text-gray-700/75"
-                        href="/account"
+                        href="/container-cfml/account/"
                     >
                         My Account
                     </a>

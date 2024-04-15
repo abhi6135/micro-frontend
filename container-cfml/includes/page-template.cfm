@@ -1,6 +1,6 @@
 <cfparam name="ATTRIBUTES.pageDescription" default="Container App - CFML">
 <cfparam name="ATTRIBUTES.pageTitle" default="Container App - CFML">
-<cfparam name="ATTRIBUTES.pageContent" default="includes/home.cfm">
+<cfparam name="ATTRIBUTES.pageContent" default="/container-cfml/includes/home.cfm">
 
 <cfoutput>
     <html lang="en">
@@ -11,21 +11,21 @@
             <meta name="description" content="#EncodeForHTMLAttribute( ATTRIBUTES.pageDescription )#" />
             <title>#EncodeForHTML( ATTRIBUTES.pageTitle )#</title>
 
-            <link rel="stylesheet" href="base.css" />
-            <link rel="stylesheet" href="main.css" />
-            <link rel="stylesheet" href="app.css" />
+            <link rel="stylesheet" href="/container-cfml/styles/base.css" />
+            <link rel="stylesheet" href="/container-cfml/styles/main.css" />
+            <link rel="stylesheet" href="/container-cfml/styles/app.css" />
         </head>
         <body data-new-gr-c-s-check-loaded="14.1166.0" data-gr-ext-installed="">
             <noscript>You need to enable JavaScript to run this app.</noscript>
 
             <div id="root">
-                <cfinclude template="includes/header.cfm">
+                <cfinclude template="header.cfm">
 
                 <cfif FileExists( ATTRIBUTES.pageContent )>
                     <cfinclude template="#ATTRIBUTES.pageContent#">
                 </cfif>
                 
-                <cfinclude template="includes/footer.cfm">
+                <cfinclude template="footer.cfm">
             </div>
 
             <div id="headlessui-portal-root">
