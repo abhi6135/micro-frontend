@@ -1,0 +1,27 @@
+﻿
+@model string[]
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+
+<body>
+    <div id="microFrontendApp1">
+
+    </div>
+    <!-- Render JavaScript files -->
+    @foreach (var jsFile in Model)
+    {
+        <script src="@Url.Content("~/Scripts/" + jsFile)"></script>
+    }
+
+</body>
+</html>
+
+
+
+
+
+

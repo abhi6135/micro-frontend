@@ -1,0 +1,15 @@
+{
+	"artifacts": {
+		"js": [
+			"/ecommerce/vendor-headlessui.274947a2da01f86b205d.bundle.js?e7411cf7537b231752ff",
+			"/ecommerce/vendor-react-dom.cdf6381f56d4385f966b.bundle.js?e7411cf7537b231752ff",
+			"/ecommerce/vendor-scheduler.2e27c95bc60cc108a0bd.bundle.js?e7411cf7537b231752ff",
+			"/ecommerce/vendor-react.ee1e3e9a17289b574af7.bundle.js?e7411cf7537b231752ff",
+			"/ecommerce/vendor-react-router.3f596fc6da3344edf8ca.bundle.js?e7411cf7537b231752ff",
+			"/ecommerce/vendor-react-router-dom.e3b3f1f5a5f457591ba0.bundle.js?e7411cf7537b231752ff",
+			"/ecommerce/vendor-remix-run.8e678cd01ea5a3dc524a.bundle.js?e7411cf7537b231752ff",
+			"/ecommerce/ecommerce.13bb01da06add15112d4.bundle.js?e7411cf7537b231752ff"
+		],
+		"css": []
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"artifacts": {
+		"js": [
+			"/account/vendor-react-dom.c1e84cb31c30b3e97fd7.bundle.js?545dc694de172e4f1fe3",
+			"/account/vendor-scheduler.2e27c95bc60cc108a0bd.bundle.js?545dc694de172e4f1fe3",
+			"/account/vendor-react.6a1d7c06f6c60b9f2b71.bundle.js?545dc694de172e4f1fe3",
+			"/account/vendor-react-router.2615da9f0655b6e17983.bundle.js?545dc694de172e4f1fe3",
+			"/account/vendor-react-router-dom.4314188950079263afe3.bundle.js?545dc694de172e4f1fe3",
+			"/account/vendor-remix-run.70b4408ef816a646f16d.bundle.js?545dc694de172e4f1fe3",
+			"/account/main.c42c1c586b211eb00e7c.bundle.js?545dc694de172e4f1fe3"
+		],
+		"css": []
+	}
+}
