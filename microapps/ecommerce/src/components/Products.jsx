@@ -8,7 +8,9 @@ const Products = () => {
 					Best Deals
 				</h2>
 
+				{/* Product Container Start */}
 				<div className='mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8'>
+					{/* Product Card Start */}
 					<div className='group relative'>
 						<div className='aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80'>
 							<img
@@ -30,7 +32,9 @@ const Products = () => {
 							<p className='text-sm font-medium text-gray-900'>$35</p>
 						</div>
 					</div>
+					{/* Product Card End */}
 
+					{/* Product Card Start */}
 					<div className='group relative'>
 						<div className='aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80'>
 							<img
@@ -52,7 +56,9 @@ const Products = () => {
 							<p className='text-sm font-medium text-gray-900'>$35</p>
 						</div>
 					</div>
+					{/* Product Card End */}
 				</div>
+				{/* Product Container End */}
 			</div>
 		</div>
 	)

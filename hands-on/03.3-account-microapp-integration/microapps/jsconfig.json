@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@ecommerce/*": ["./ecommerce/src/*"],
+			"@account/*": ["./account/src/*"]
+		}
+	}
+}

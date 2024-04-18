@@ -12,7 +12,16 @@ const App = () => {
 					index
 					element={
 						<h1 class='text-3xl font-bold underline text-center'>
-							Hello, Ecommerce Microapp!
+							Hello, Welcome to the Products Page!
+						</h1>
+					}
+				/>
+
+				<Route
+					path='/:id'
+					element={
+						<h1 class='text-3xl font-bold underline text-center'>
+							Hello, Welcome to the Product Detail Page!
 						</h1>
 					}
 				/>
