@@ -8,7 +8,6 @@ import Footer from './components/Footer'
 import HomePage from './components/Home'
 
 import Ecommerce from 'EcommerceApp/Ecommerce'
-import Account from 'AccountApp/Account'
 
 const App = () => {
 	const history = createBrowserHistory()
